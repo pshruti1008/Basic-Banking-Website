@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <style>
+        body{
+          background-color: rgb(208, 224, 237);
+        }
+        /* Navigation bar */
+.navbar {
+    background-color: #f8f9fa; /* Change background color */
+    padding: 15px 0; /* Add padding */
+    border-bottom: 1px solid #dee2e6; /* Add bottom border */
+}
+
+.navbar-brand {
+    font-size: 1.5rem; /* Increase font size */
+    font-weight: bold; /* Add font weight */
+    color: #007bff; /* Change text color */
+}
+
+.navbar-brand:hover {
+    color: #0056b3; /* Change hover color */
+}
+
+.navbar-nav {
+    margin-left: auto; /* Move items to the right */
+}
+
+.navbar-nav .nav-item {
+    margin-right: 15px; /* Add spacing between items */
+}
+
+.nav-link {
+    color: #007bff; /* Change text color */
+}
+
+.nav-link:hover {
+    color: #0056b3; /* Change hover color */
+}
+
+.col-lg-6 {
+    max-width: 800px; /* Limit width */
+    margin: 0 auto; /* Center horizontally */
+}
+
+p.lead {
+    font-size: 1.25rem; /* Increase font size */
+    line-height: 1.6; /* Add line height for readability */
+    color: #333; /* Set text color */
+    text-align: center; /* Center align text */
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem; /* Add bottom margin */
+}
+
+/* Center align content */
+.centered-content {
+    text-align: center;
+}
+
+/* Style for forms */
+form {
+    display: inline-block;
+    margin: 15px; /* Add some margin around the forms */
+}
+
+/* Style for submit buttons */
+input[type="submit"] {
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Add padding */
+    font-size: 16px; /* Set font size */
+    cursor: pointer; /* Show pointer cursor on hover */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Style for hover effect */
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+
+      </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Sparks Cooperative Bank Ltd.</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="faq.html">FAQs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="transaction.html">Transfer Money</a>
+              </li>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Introduction -->
+      <div class="px-4 pt-5 my-5 text-center border-bottom">
+        <h1 class="display-4 fw-bold text-body-emphasis">Sparks Co-operative Bank Ltd.</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">Welcome to Sparks Co-operative Bank Ltd. , where banking meets brilliance! At Sparks Co-operative Bank Ltd., we're not just about transactions; we're about transformations. With cutting-edge technology and personalized service, we're here to turn your financial goals into reality. Whether you're saving for your dream home, expanding your business, or planning for retirement, we've got the tools and expertise to guide you every step of the way. Join us and experience banking that's not just smart, but downright savvy. Welcome to banking reimagined. Welcome to Sparks Co-operative Bank Ltd.</p>
+        </div>
+        </div>
+          <!-- Form Accept -->
+<center>
+<form action="customer.php" method="POST">
+    <input type="submit" value="View All Customers">
+    </form>
+    <form action="history.php" method="POST">
+        <input type="submit" value="Transaction History">
+        </form>
+</center>
+</body>
+</html>
